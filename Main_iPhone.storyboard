@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sand.png" translatesAutoresizingMaskIntoConstraints="NO" id="aCy-QA-fg0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treasureClosed.png" translatesAutoresizingMaskIntoConstraints="NO" id="3sV-d7-pJW">
+                                <rect key="frame" x="109" y="26" width="103" height="79"/>
+                            </imageView>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fli-vS-meN">
+                                <rect key="frame" x="13" y="424" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella1:" destination="vXZ-lx-hvc" eventType="touchDown" id="e0T-ci-ns5"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0C-w4-5ip">
+                                <rect key="frame" x="73" y="424" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella2:" destination="vXZ-lx-hvc" eventType="touchDown" id="VQl-dx-2Ye"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYR-yA-r8S">
+                                <rect key="frame" x="133" y="424" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella3:" destination="vXZ-lx-hvc" eventType="touchDown" id="TUG-da-3wF"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZn-FG-I43">
+                                <rect key="frame" x="193" y="424" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella4:" destination="vXZ-lx-hvc" eventType="touchDown" id="3Kp-Pr-lSL"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I6-nW-Cgs">
+                                <rect key="frame" x="253" y="424" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella5:" destination="vXZ-lx-hvc" eventType="touchDown" id="OGA-ub-T6c"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCy-7v-gZ4">
+                                <rect key="frame" x="13" y="361" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella6:" destination="vXZ-lx-hvc" eventType="touchDown" id="f7J-he-BjF"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fb-rO-RaE">
+                                <rect key="frame" x="73" y="361" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella7:" destination="vXZ-lx-hvc" eventType="touchDown" id="e21-qv-Qgi"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-xs-Uam">
+                                <rect key="frame" x="133" y="361" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella8:" destination="vXZ-lx-hvc" eventType="touchDown" id="r8v-NZ-lOS"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZC-T7-H95">
+                                <rect key="frame" x="193" y="361" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella9:" destination="vXZ-lx-hvc" eventType="touchDown" id="0Nf-Ln-u32"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8z-M0-P4b">
+                                <rect key="frame" x="253" y="361" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella10:" destination="vXZ-lx-hvc" eventType="touchDown" id="9Gw-bU-yKS"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1o-Jq-ulp">
+                                <rect key="frame" x="13" y="298" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella11:" destination="vXZ-lx-hvc" eventType="touchDown" id="SDc-Ak-D7O"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbO-4F-Twv">
+                                <rect key="frame" x="73" y="298" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella12:" destination="vXZ-lx-hvc" eventType="touchDown" id="kFS-Bh-A7v"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebv-Bt-BGb">
+                                <rect key="frame" x="133" y="298" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella13:" destination="vXZ-lx-hvc" eventType="touchDown" id="KSB-o5-0OW"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHV-YL-wQ7">
+                                <rect key="frame" x="193" y="298" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella14:" destination="vXZ-lx-hvc" eventType="touchDown" id="WrY-HD-vja"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92E-g9-DGy">
+                                <rect key="frame" x="253" y="298" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella15:" destination="vXZ-lx-hvc" eventType="touchDown" id="XvO-5c-9PV"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M36-N5-XId">
+                                <rect key="frame" x="13" y="235" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella16:" destination="vXZ-lx-hvc" eventType="touchDown" id="eNT-aZ-GhL"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hra-Yq-V14">
+                                <rect key="frame" x="73" y="235" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella17:" destination="vXZ-lx-hvc" eventType="touchDown" id="Smd-uW-flf"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhd-Oz-aaq">
+                                <rect key="frame" x="133" y="235" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella18:" destination="vXZ-lx-hvc" eventType="touchDown" id="H6h-Yf-c65"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrm-pc-Rhs">
+                                <rect key="frame" x="193" y="235" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella19:" destination="vXZ-lx-hvc" eventType="touchDown" id="6yN-iY-Ogr"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MT-KE-Bjl">
+                                <rect key="frame" x="253" y="235" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella20:" destination="vXZ-lx-hvc" eventType="touchDown" id="VEr-cF-DWp"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAV-fS-fn3">
+                                <rect key="frame" x="13" y="172" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella21:" destination="vXZ-lx-hvc" eventType="touchDown" id="hCD-H3-0pF"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vii-ox-nUx">
+                                <rect key="frame" x="73" y="172" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella22:" destination="vXZ-lx-hvc" eventType="touchDown" id="EQn-OS-bXe"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9S-bN-eCh">
+                                <rect key="frame" x="133" y="172" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella23:" destination="vXZ-lx-hvc" eventType="touchDown" id="dfe-2l-KHW"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTg-3P-Vf3">
+                                <rect key="frame" x="193" y="172" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella24:" destination="vXZ-lx-hvc" eventType="touchDown" id="wmX-ch-nd8"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQI-yl-xsx">
+                                <rect key="frame" x="253" y="172" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella25:" destination="vXZ-lx-hvc" eventType="touchDown" id="9u7-22-4Pg"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sZ-z1-efY">
+                                <rect key="frame" x="13" y="109" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella26:" destination="vXZ-lx-hvc" eventType="touchDown" id="6zs-39-cx4"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aG2-t8-IWR">
+                                <rect key="frame" x="73" y="109" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella27:" destination="vXZ-lx-hvc" eventType="touchDown" id="Lh3-vp-a5J"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8m7-EH-HNo">
+                                <rect key="frame" x="133" y="109" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella28:" destination="vXZ-lx-hvc" eventType="touchDown" id="fg2-iS-ACa"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joo-tH-UM7">
+                                <rect key="frame" x="193" y="109" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella29:" destination="vXZ-lx-hvc" eventType="touchDown" id="uaB-ON-7ac"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKz-Ci-xgL">
+                                <rect key="frame" x="253" y="109" width="55" height="55"/>
+                                <state key="normal" image="pavement.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hella30:" destination="vXZ-lx-hvc" eventType="touchDown" id="XyC-Sy-JZX"/>
+                                </connections>
+                            </button>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footstepRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="VAp-RV-k47">
+                                <rect key="frame" x="174" y="503" width="44" height="58"/>
+                            </imageView>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="footstepLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qP-pH-3tu">
+                                <rect key="frame" x="100" y="503" width="44" height="58"/>
+                            </imageView>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mystery Steps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba1-mL-81a">
+                                <rect key="frame" x="4" y="66" width="310" height="98"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to start game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIF-Fj-Vx7">
+                                <rect key="frame" x="93" y="55" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monster.png" translatesAutoresizingMaskIntoConstraints="NO" id="ghZ-1V-Hnu">
+                                <rect key="frame" x="87" y="325" width="92" height="91"/>
+                            </imageView>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulations!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLQ-TV-Kvh">
+                                <rect key="frame" x="-5" y="184" width="331" height="91"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I bet you can't do any better!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ7-a5-beV">
+                                <rect key="frame" x="54" y="288" width="221" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgl-OQ-aLI">
+                                <rect key="frame" x="88" y="104" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxe-h8-hfu">
+                                <rect key="frame" x="35" y="48" width="22" height="22"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="instructions:" destination="vXZ-lx-hvc" eventType="touchDown" id="wuO-ux-faz"/>
+                                </connections>
+                            </button>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start playing by taping on any tile in the" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BV5-6C-VdE">
+                                <rect key="frame" x="19" y="441" width="281" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="first row, farthest from the treasurechest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="we4-ww-Vzc">
+                                <rect key="frame" x="19" y="458" width="281" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="98" translatesAutoresizingMaskIntoConstraints="NO" id="Fv7-2n-f71">
+                                <rect key="frame" x="210" y="45" width="98" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have taken 100 steps so far!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIQ-E8-MVZ">
+                                <rect key="frame" x="17" y="206" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step up your game!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzE-eL-Wiy">
+                                <rect key="frame" x="17" y="252" width="286" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-FB-GX7">
+                                <rect key="frame" x="25" y="302" width="270" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treasureClosed.png" translatesAutoresizingMaskIntoConstraints="NO" id="INs-dv-Kq9">
+                                <rect key="frame" x="98" y="339" width="124" height="94"/>
+                            </imageView>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is in the treasure chest?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aP-Zl-v33">
+                                <rect key="frame" x="46" y="449" width="228" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="explotion.png" translatesAutoresizingMaskIntoConstraints="NO" id="zva-e1-oVz">
+                                <rect key="frame" x="11" y="176" width="158" height="108"/>
+                            </imageView>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="explain.png" translatesAutoresizingMaskIntoConstraints="NO" id="JCJ-Gx-7ef">
+                                <rect key="frame" x="41" y="136" width="239" height="305"/>
+                            </imageView>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kfu-PE-sbV">
+                                <rect key="frame" x="68" y="28" width="185" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Begin New Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beginNewGame:" destination="vXZ-lx-hvc" eventType="touchDown" id="tqS-m1-SLo"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3Q-0n-PzK">
+                                <rect key="frame" x="112" y="146" width="96" height="22"/>
+                                <state key="normal" title="Leaderboard" backgroundImage="yellow.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showGCOptions:" destination="vXZ-lx-hvc" eventType="touchDown" id="c2f-bt-3oQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="BestScore" destination="Jfq-FB-GX7" id="sOQ-nk-Bkl"/>
+                        <outlet property="Highscore" destination="Fv7-2n-f71" id="LY8-62-GdS"/>
+                        <outlet property="Leaderboard" destination="m3Q-0n-PzK" id="wNv-jP-Y0j"/>
+                        <outlet property="beginNewGame" destination="Kfu-PE-sbV" id="cQ3-uV-Hvl"/>
+                        <outlet property="boom" destination="zva-e1-oVz" id="0Yb-mW-fhO"/>
+                        <outlet property="explain" destination="JCJ-Gx-7ef" id="buY-b0-l93"/>
+                        <outlet property="header" destination="ba1-mL-81a" id="xYw-2f-QSC"/>
+                        <outlet property="hella1" destination="fli-vS-meN" id="g2J-5z-whG"/>
+                        <outlet property="hella10" destination="U8z-M0-P4b" id="Ovl-aI-ZWj"/>
+                        <outlet property="hella11" destination="y1o-Jq-ulp" id="WUm-EK-A5Z"/>
+                        <outlet property="hella12" destination="VbO-4F-Twv" id="xGo-Od-dzh"/>
+                        <outlet property="hella13" destination="ebv-Bt-BGb" id="xit-iw-LYx"/>
+                        <outlet property="hella14" destination="rHV-YL-wQ7" id="T39-g1-x1E"/>
+                        <outlet property="hella15" destination="92E-g9-DGy" id="RDN-4d-M7L"/>
+                        <outlet property="hella16" destination="M36-N5-XId" id="sgn-LT-kYU"/>
+                        <outlet property="hella17" destination="Hra-Yq-V14" id="bsw-oD-XkF"/>
+                        <outlet property="hella18" destination="mhd-Oz-aaq" id="br3-TK-xmh"/>
+                        <outlet property="hella19" destination="Nrm-pc-Rhs" id="BZ1-x3-4cM"/>
+                        <outlet property="hella2" destination="G0C-w4-5ip" id="f6v-8N-EU5"/>
+                        <outlet property="hella20" destination="0MT-KE-Bjl" id="MmF-IA-c68"/>
+                        <outlet property="hella21" destination="KAV-fS-fn3" id="ssJ-5L-jGU"/>
+                        <outlet property="hella22" destination="Vii-ox-nUx" id="HUZ-CX-GTe"/>
+                        <outlet property="hella23" destination="t9S-bN-eCh" id="Sfp-0z-oea"/>
+                        <outlet property="hella24" destination="qTg-3P-Vf3" id="diS-Pk-NZA"/>
+                        <outlet property="hella25" destination="EQI-yl-xsx" id="NQ0-kg-fOg"/>
+                        <outlet property="hella26" destination="0sZ-z1-efY" id="Dvg-0Q-ihU"/>
+                        <outlet property="hella27" destination="aG2-t8-IWR" id="CNZ-hl-hgz"/>
+                        <outlet property="hella28" destination="8m7-EH-HNo" id="6eD-Em-4Ji"/>
+                        <outlet property="hella29" destination="joo-tH-UM7" id="JQ8-De-Lke"/>
+                        <outlet property="hella3" destination="EYR-yA-r8S" id="8hT-W4-nez"/>
+                        <outlet property="hella30" destination="TKz-Ci-xgL" id="TBH-Y4-yLU"/>
+                        <outlet property="hella4" destination="NZn-FG-I43" id="0xg-Un-DpS"/>
+                        <outlet property="hella5" destination="0I6-nW-Cgs" id="UXq-rk-3vE"/>
+                        <outlet property="hella6" destination="nCy-7v-gZ4" id="UCZ-MG-zxa"/>
+                        <outlet property="hella7" destination="4fb-rO-RaE" id="Rua-Q8-AJW"/>
+                        <outlet property="hella8" destination="rPb-xs-Uam" id="9vj-3F-qvV"/>
+                        <outlet property="hella9" destination="iZC-T7-H95" id="Y4j-m1-7jd"/>
+                        <outlet property="instructions" destination="Dxe-h8-hfu" id="FU3-kj-RrN"/>
+                        <outlet property="instructions1" destination="bgl-OQ-aLI" id="WsR-5Z-lQm"/>
+                        <outlet property="instructions2" destination="BV5-6C-VdE" id="OdM-tW-5Ji"/>
+                        <outlet property="instructions3" destination="we4-ww-Vzc" id="TWW-BO-zhn"/>
+                        <outlet property="leftShoe" destination="7qP-pH-3tu" id="gWd-ET-lEL"/>
+                        <outlet property="monster" destination="ghZ-1V-Hnu" id="eig-uW-vo6"/>
+                        <outlet property="pepp" destination="9aP-Zl-v33" id="B5p-jx-ZIV"/>
+                        <outlet property="rightShoe" destination="VAp-RV-k47" id="Gxs-07-uTQ"/>
+                        <outlet property="stepPepp1" destination="FIQ-E8-MVZ" id="8at-ou-D1n"/>
+                        <outlet property="stepPepp2" destination="kzE-eL-Wiy" id="d6n-Ec-2Nv"/>
+                        <outlet property="tapStart" destination="kIF-Fj-Vx7" id="QJ1-jE-Acq"/>
+                        <outlet property="treasure" destination="3sV-d7-pJW" id="F8k-fS-g27"/>
+                        <outlet property="treasurePepp" destination="INs-dv-Kq9" id="oGK-nX-QCG"/>
+                        <outlet property="winText1" destination="CLQ-TV-Kvh" id="AJL-KD-pG5"/>
+                        <outlet property="winText2" destination="eQ7-a5-beV" id="O4a-aZ-gkj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="264"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="explain.png" width="306" height="465"/>
+        <image name="explotion.png" width="640" height="488"/>
+        <image name="footstepLeft.png" width="1105" height="1512"/>
+        <image name="footstepRight.png" width="468" height="640"/>
+        <image name="monster.png" width="255" height="300"/>
+        <image name="pavement.png" width="771" height="586"/>
+        <image name="sand.png" width="555" height="695"/>
+        <image name="treasureClosed.png" width="640" height="615"/>
+        <image name="yellow.jpg" width="3507" height="2481"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
